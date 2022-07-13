@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div p {
+            color: lime;
+        }
+        div > div {
+            background: plum;
+        }
+        p + section {
+            background: olive;
+        }
+        .es {
+            background: red;
+        }
+        h1 ~ section {
+            color: purple;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Jean Carlo Marchesini Antamba</p>
+        <p>Ing. Informático</p>
+        <p>Universidad Central del Ecuador</p>
+    </div>
+    <div>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure quam distinctio obcaecati laborum, commodi vel!</p>
+            <div class="es">Texto Lorem</div>
+        </div>
+    </div>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, ullam.</p>
+    <section>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, nobis.</section>
+    <h1>Hola Mundo</h1>
+    <section>Selector contiguo 1</section>
+    <section>Selector contiguo 2</section>
+</body>
+</html>
